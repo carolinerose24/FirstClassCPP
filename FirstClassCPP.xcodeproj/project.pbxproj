@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB41AB7621FA0FA000353666 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB41AB7521FA0FA000353666 /* Runner.cpp */; };
+		AB41AB7A21FA10C900353666 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB41AB7821FA10C900353666 /* Controller.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		AB41AB6B21FA0E7800353666 /* FirstClassCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstClassCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB41AB7521FA0FA000353666 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		AB41AB7821FA10C900353666 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		AB41AB7921FA10C900353666 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		AB41AB6D21FA0E7800353666 /* FirstClassCPP */ = {
 			isa = PBXGroup;
 			children = (
-				AB41AB7521FA0FA000353666 /* Runner.cpp */,
+				AB41AB7721FA105900353666 /* Controller */,
 			);
 			path = FirstClassCPP;
+			sourceTree = "<group>";
+		};
+		AB41AB7721FA105900353666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB41AB7521FA0FA000353666 /* Runner.cpp */,
+				AB41AB7821FA10C900353666 /* Controller.cpp */,
+				AB41AB7921FA10C900353666 /* Controller.hpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB41AB7621FA0FA000353666 /* Runner.cpp in Sources */,
+				AB41AB7A21FA10C900353666 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
